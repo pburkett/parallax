@@ -1,3 +1,3 @@
 # parallax
 
-#### This is a pixel-art parallax experiment. [https://pburkett.github.io/parallax/](Check it out.)
+#### This is a pixel-art parallax experiment. [Check it out.](https://pburkett.github.io/parallax/)

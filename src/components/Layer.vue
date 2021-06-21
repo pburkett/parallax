@@ -3,7 +3,7 @@
         class="layer parallax"
         :style="{
             'z-index': 100 - depth,
-            animationDuration: depth / 2 + 's',
+            animationDuration: depth + 's',
             backgroundImage: 'url(' + image + ')',
         }"
     />
@@ -37,12 +37,10 @@ export default {
 }
 @keyframes p {
     0% {
-        // left: 0%;
         transform: translateX(0%);
     }
     100% {
         transform: translateX(-66.6666%);
-        // left: -200%;
     }
 }
 .parallax {
